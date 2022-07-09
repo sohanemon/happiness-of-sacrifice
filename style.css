@@ -104,12 +104,14 @@ header p {
   padding: 30px 40px;
 }
 .only-image {
+  box-sizing: border-box;
   margin: 100px auto 1%;
   width: max-content;
   display: block;
 }
 .only-image img {
-  margin: 50px;
+  box-sizing: border-box;
+  margin: 10px;
 }
 .fund-cards {
   width: 90%;
